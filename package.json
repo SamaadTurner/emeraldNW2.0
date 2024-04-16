@@ -1,0 +1,17 @@
+{
+  "name": "emeraldnw2.0",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this template!",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon assets/js/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "nodemon": "^3.1.0"
+  }
+}
