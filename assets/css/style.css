@@ -9,6 +9,26 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.carousel-item img {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  width: auto;
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: 500px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+/* Change carousel control arrows color to black */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(0%);
+}
+
+.carousel-video {
+  width: 100%; /* Set the width to 100% */
+  height: auto; /* Set the height to auto for proportional scaling */
+  max-height: 400px; /* Set a maximum height to prevent the video from becoming too tall */
+  object-fit: cover; /* This will make the video cover the width and height of the container */
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
