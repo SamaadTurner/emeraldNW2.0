@@ -29,13 +29,84 @@
   max-height: 400px; /* Set a maximum height to prevent the video from becoming too tall */
   object-fit: cover; /* This will make the video cover the width and height of the container */
 }
+
+#header-title {
+  font-size: 24px; /* Default font size for desktop */
+}
+
+.logo {
+  flex: 0 0 auto; /* Ensure the logo doesn't grow or shrink */
+}
+
+.title {
+  margin-left: 20px; /* Add some spacing between the logo and the title */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #header-title {
+      font-size: 20px; /* Adjust font size for tablets and smaller screens */
+  }
+  .title {
+      margin-left: 10px; /* Further reduce spacing for tablets and smaller screens */
+  }
+}
+
+/* Media query for even smaller screens (e.g., mobile phones) */
+@media (max-width: 576px) {
+  .title {
+      margin-left: 0; /* Remove left margin for mobile phones */
+      text-align: center; /* Center-align title on mobile phones */
+  }
+  #header-title {
+      font-size: 18px; /* Further reduce font size for mobile phones */
+  }
+}
+
+.team .row {
+  text-align: center; /* Center-align the content within the row */
+}
+
+.team .member {
+  margin-bottom: 30px; /* Add some space between members */
+}
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .section-title {
+  text-align: center;
+}
+
+.team .container {
+  margin-top: 20px; /* Adjust the top margin to push the team members down */
+}
+
+/* CSS for small viewports (767px x 728px) and below */
+@media (max-width: 767px) {
+  .team .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team .col-lg-6,
+  .team .col-md-6 {
+    width: 100%; /* Set width to 100% to stack members on top of each other */
+    margin-left: 100px; /* Add left margin to center the members */
+  }
+}
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #3498db;
+  color: black;
   text-decoration: none;
 }
 
