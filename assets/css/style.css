@@ -21,6 +21,8 @@
 /* Change carousel control arrows color to black */
 .carousel-control-prev-icon, .carousel-control-next-icon {
   filter: invert(0%);
+  width: 60px;
+  height: 60px;
 }
 
 .carousel-video {
