@@ -94,7 +94,7 @@
   .team .col-lg-6,
   .team .col-md-6 {
     width: 100%; /* Set width to 100% to stack members on top of each other */
-    margin-left: 80px; /* Add left margin to center the members */
+    margin-left: 50px; /* Add left margin to center the members */
   }
 }
 
