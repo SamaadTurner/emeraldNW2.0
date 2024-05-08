@@ -1,10 +1,3 @@
-/**
-* Template Name: Lumia
-* Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -44,19 +37,10 @@
   margin-left: 20px; /* Add some spacing between the logo and the title */
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  #header-title {
-      font-size: 20px; /* Adjust font size for tablets and smaller screens */
-  }
-  .title {
-      margin-left: 10px; /* Further reduce spacing for tablets and smaller screens */
-  }
-}
-@media (maxs-width: 992px) {
+@media (max-width: 992px) {
   .logo {
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
     padding-left: 11000px;
   }
 
@@ -106,7 +90,7 @@
   }
   .team .col-lg-6,
   .team .col-md-6 {
-    width: 100%; /* Set width to 100% to stack members on top of each other */
+    width: 100%;  /*Set width to 100% to stack members on top of each other */
     margin-left: 100px; /* Add left margin to center the members */
   }
 }
