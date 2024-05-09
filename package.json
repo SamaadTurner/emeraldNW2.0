@@ -1,7 +1,7 @@
 {
   "name": "emeraldnw2.0",
   "version": "1.0.0",
-  "description": "Thanks for downloading this template!",
+  "description": "",
   "main": "assets/js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
